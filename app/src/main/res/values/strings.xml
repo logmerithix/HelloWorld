@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
-    <string name="strButtonCaption">Click Here!</string>
-    <string name="strMessage">Hello!</string>
+    <string name="app_name">KonnichiwaSekai</string>
+    <string name="strButtonCaption">Kokowokurikku!</string>
+    <string name="strMessage">Ohayogozaimasu!</string>
 </resources>
