@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Konnichiwa Sekai</string>
     <string name="strButtonCaption">Kokowokurikku!</string>
+    <string name="strButtonCaptionTwo">Koko o oshimasu!</string>
     <string name="strMessage">Ohayogozaimasu!</string>
+    <string name="strMessageOne">Oyasumi!</string>
 </resources>

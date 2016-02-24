@@ -19,6 +19,7 @@ public class HelloWorld extends AppCompatActivity {
      */
     private GoogleApiClient client;
 
+    Button btnSayGoodNight;
     Button btnSayHello;
     TextView txtOutput;
 
@@ -28,6 +29,7 @@ public class HelloWorld extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_world);
 
+        btnSayGoodNight = (Button)findViewById(R.id.btnSayGoodNight);
         btnSayHello = (Button)findViewById(R.id.btnSayHello);
         txtOutput = (TextView)findViewById(R.id.txtOutput);
 
@@ -39,6 +41,11 @@ public class HelloWorld extends AppCompatActivity {
     public void sayHello(View vw)
     {
         txtOutput.setText(R.string.strMessage);
+    }
+
+    public void sayGoodNight(View vw)
+    {
+        txtOutput.setText(R.string.strMessageOne);
     }
 
     @Override
